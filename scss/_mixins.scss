@@ -1,0 +1,13 @@
+@mixin flex-item($justify) {
+  display: flex;
+  align-items: center;
+  justify-content: $justify;
+}
+
+/* $radius is the parameter of the function */
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
